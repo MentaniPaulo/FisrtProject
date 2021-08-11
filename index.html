@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculo de ICMS e IPI</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+	<div class="corpo">
+		<div class="header">
+			<p>Calculadora de Imposto</p>
+		</div>
+		
+		<div class="explicacao">
+			<p>
+				ICMS é a sigla que identifica o Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação. 
+				Que é basicamente o imposto que deve ser pago ao governo estadual para circulação da mercadorina entre cidades e é definido por cada estado.
+			</p>
+			<p>
+				IPI é a sigla para Imposto sobre Produtos Industrializados, que incide sobre itens nacionais e importados que passaram por algum processo de industrialização.
+				É imposto pago quando é fabricado produtos, prestado serviços. 
+			</p>
+		</div>
+
+		<div class="campo-p">
+
+			<p>Preço de manufatura: </p>
+			<input type="number" name="precoBase">
+			<p>Alicota de ICMS: </p>
+			<input type="number" name="icms">
+			<p>Alicota de IPI: </p>
+			<input type="number" name="ipi">
+			<p>Preço Final: </p>
+			<input type="number" name="precoFinal">
+
+			<button onclick="Calc(this)">Calcular</button>
+
+		</div>
+
+		<div class="alerta">
+			
+
+		</div>
+
+		<div class="rodape">
+			
+			<p>Desenvolvido por Paulo Mentani</p>
+
+		</div>
+
+	</div>
+	<script type="text/javascript"  src="./js/script.js">
+		
+
+	</script>
+</body>
+</html>

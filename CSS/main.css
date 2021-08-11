@@ -1,0 +1,25 @@
+.corpo{
+	
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.header{
+	text-align: center;
+}
+
+.explicacao{
+	text-align: justify;
+}
+.campo{
+
+}
+
+.rodape{
+	text-align: center;
+	margin: 10px 0px;
+	background-color: #05F;
+	padding: 10px;
+}
